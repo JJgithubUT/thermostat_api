@@ -1,6 +1,0 @@
-# Inicializar Firebase Admin
-cred = credentials.Certificate("firebase_config.json")  # <-- Cambia esto por el path a tu JSON
-firebase_admin.initialize_app(cred, {
-    # Cambia esto por tu URL del Realtime DB
-    'databaseURL': 'https://termostato-3ab33-default-rtdb.firebaseio.com/'
-})
