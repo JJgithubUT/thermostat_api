@@ -94,7 +94,7 @@ Esto indica que se están leyendo correctamente los dispositivos desde Firestore
 | Error | Solución |
 |------|----------|
 | `pip: command not found` | Agrega Python y Scripts al PATH del sistema |
-| ejemplo de ruta para variable ne path de sistema: `C:\Users\TuUsuario\AppData\Local\Programs\Python\Python313\Scripts` |
+| Variables del entorno no configuradas | ejemplo de ruta para variable en path de sistema: `C:\Users\TuUsuario\AppData\Local\Programs\Python\Python313\Scripts` |
 | `firebase_admin` no se encuentra | Asegúrate de haber ejecutado `pip install -r requirements.txt` |
 | No se encuentra `firebase_config.json` | Asegúrate de haberlo descargado desde Firebase y colocado correctamente |
 
@@ -107,7 +107,3 @@ Si tienes dudas sobre la instalación, puedes contactar al autor en:
 **Correo:** juanjcbreton@gmail.com
 
 ---
-
-```
-
-¿Quieres que te lo deje en un archivo `.md` listo para guardar o copiar directamente en el proyecto?
